@@ -1,0 +1,73 @@
+perl-Term-Animation
+--------------------------------------------
+This module provides a framework to produce sprite animations using
+ASCII art. Each ASCII 'sprite' is given one or more frames, and
+placed into the animation as an 'animation object'. An animation
+object can have a callback routine that controls the position and
+frame of the object.
+
+Runtime requirements:
+  perl-5.8.8-4
+  perl-Curses-1.17-1
+
+Canonical homepage:
+  http://www.robobunny.com/projects/animation/
+  http://search.cpan.org/~kbaucom/Term-Animation/
+
+Canonical download:
+  http://www.cpan.org/authors/id/K/KB/KBAUCOM/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Term-Animation-2.4-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Term-Animation-2.4-X.cygport all
+
+This will create:
+  /usr/src/perl-Term-Animation-2.4-X-src.tar.bz2
+  /usr/src/perl-Term-Animation-2.4-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/postinstall/perl-Term-Animation.sh
+  /usr/lib/perl5/vendor_perl/5.8/Term/Animation.pm
+  /usr/lib/perl5/vendor_perl/5.8/Term/Animation/Entity.pm
+  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Term/Animation/.packlist
+  /usr/share/doc/Cygwin/perl-Term-Animation-2.4.README
+  /usr/share/doc/perl-Term-Animation-2.4/Changes
+  /usr/share/doc/perl-Term-Animation-2.4/MIGRATION
+  /usr/share/doc/perl-Term-Animation-2.4/README
+  /usr/share/man/man3/Term.Animation.3pm.gz
+  /usr/share/man/man3/Term.Animation.Entity.3pm.gz
+  /usr/share/perl/cygwin-pods/Term-Animation.pod
+
+------------------
+
+Port Notes:
+
+----- version 2.4-1 -----
+Version bump.
+
+----- version 2.1-1 -----
+Upstream bugfix release.
+
+----- version 2.0.1-1 -----
+New major upstream version.
+
+----- version 1.1-2 -----
+Rebuilt for perl-5.8.6.
+
+----- version 1.1-1 -----
+New upstream release.  Man page is now gzipped.
+
+----- version 1.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
