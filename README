@@ -8,7 +8,7 @@ frame of the object.
 
 Runtime requirements:
   perl-5.8.8-4
-  perl-Curses-1.17-1
+  perl-Curses-1.20-1
 
 Canonical homepage:
   http://www.robobunny.com/projects/animation/
