@@ -1,0 +1,4 @@
+CPAN_AUTHOR="kbaucom"
+inherit perl
+
+HOMEPAGE="http://www.robobunny.com/projects/animation/html/"

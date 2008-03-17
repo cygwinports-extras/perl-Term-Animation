@@ -7,8 +7,8 @@ object can have a callback routine that controls the position and
 frame of the object.
 
 Runtime requirements:
-  perl-5.8.8-4
-  perl-Curses-1.20-1
+  perl-5.10.0-3
+  perl-Curses-1.23-1
 
 Canonical homepage:
   http://www.robobunny.com/projects/animation/
@@ -34,21 +34,21 @@ This will create:
 
 Files included in the binary package:
 
-  /etc/postinstall/perl-Term-Animation.sh
-  /usr/lib/perl5/vendor_perl/5.8/Term/Animation.pm
-  /usr/lib/perl5/vendor_perl/5.8/Term/Animation/Entity.pm
-  /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/Term/Animation/.packlist
-  /usr/share/doc/Cygwin/perl-Term-Animation-2.4.README
+  /usr/lib/perl5/vendor_perl/5.10/Term/Animation.pm
+  /usr/lib/perl5/vendor_perl/5.10/Term/Animation/Entity.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Term/Animation/.packlist
   /usr/share/doc/perl-Term-Animation-2.4/Changes
   /usr/share/doc/perl-Term-Animation-2.4/MIGRATION
   /usr/share/doc/perl-Term-Animation-2.4/README
   /usr/share/man/man3/Term.Animation.3pm.gz
   /usr/share/man/man3/Term.Animation.Entity.3pm.gz
-  /usr/share/perl/cygwin-pods/Term-Animation.pod
 
 ------------------
 
 Port Notes:
+
+----- version 2.4-2 -----
+Rebuilt for perl-5.10.
 
 ----- version 2.4-1 -----
 Version bump.
